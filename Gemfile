@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0.rc1'
 # Use postgresql as the database for Active Record
 gem 'pg'
+
+gem 'figaro', github: 'laserlemon/figaro', ref: "9bbc7343f3916e73c185d071608e5ef24e9638d0"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.1'
 # Use Uglifier as compressor for JavaScript assets
